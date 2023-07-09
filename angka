@@ -1,0 +1,8 @@
+nilai_angka = (130,200,600,230,10,258,75,232,67,3424,4694,213,23)
+urut = sorted(nilai_angka)
+print(20*"-")
+print("Bilangan urut :",urut)
+print(20*"-")
+print(" selisih bilangan terbesar dengan bilangan paling kecil :")
+s = urut[-1] - urut[0]
+print(" bilangan terbesar =",urut[-1],"\n","bilangan terkecil =",urut[0], "\n selisih =",s)
